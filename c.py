@@ -1,0 +1,6 @@
+yourName = input('What is your name?')
+yourWeight = float(input('What is your weight in kg?'))
+yourHeight = float(input('What is your height in meters.'))
+newPerson = BMI(yourWeight,yourHeight,yourName)
+newBMI = newPerson.calBmi()
+print("Dear",newPerson.mn +",your BMI is",round(newBMI,2))
